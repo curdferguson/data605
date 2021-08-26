@@ -1,0 +1,94 @@
+---
+title: "Wk 1 Discussion Post"
+author: "Tyler Frankenberg"
+output: html_document
+---
+
+We start with a system of 3 linear equations.
+
+\[
+\begin{align}
+3x +y & = 1 \\
+x -y & = 2 \\
+4x + 2y & = 2 \\
+\end{align}
+\]
+
+We'll first add the first and second rows together to eliminate a $y$ variable.  This gives us:
+
+\[
+\begin{align}
+4x & = 3 \\
+4x + 2y & = 2 \\
+\end{align}
+\]
+
+Then, we'll multiply the first row by $-1$, and add the two rows together, to fully eliminate the $x$ variable.
+\[
+\begin{align}
+-4x & = -3 \\
+4x + 2y & = 2 \\
+\end{align}
+\]
+
+This gives us...
+
+\[
+\begin{align}
+2y & = -1 \\
+\end{align}
+\]
+
+
+...which we simplify to:
+
+\[
+\begin{align}
+y & =   - \frac {1}{2}  \\
+\end{align}
+\]
+
+
+Now that we have found the variable $y$, we can plug it in to the first equation from our original system:
+
+\[
+\begin{align}
+3x + \left ( - \frac {1}{2} \right ) & = 1 \\
+\end{align}
+\]
+
+After then adding $\frac{1}{2}$ to both sides, we get...
+
+\[
+\begin{align}
+3x & =  \frac {3}{2} 
+\end{align}
+\]
+
+...which we can in turn divide each side by $3$ to obtain:
+
+\[
+\begin{align}
+x & =  2
+\end{align}
+\]
+
+
+So, the solution to the system of linear equations
+
+\[
+\begin{align}
+3x +y & = 1 \\
+x -y & = 2 \\
+4x + 2y & = 2 \\
+\end{align}
+\]
+
+equals:
+
+\[
+\begin{align}
+x & =  2 \\
+y & = - \frac {1}{2}
+\end{align}
+\]
